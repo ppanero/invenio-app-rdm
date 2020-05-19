@@ -14,7 +14,7 @@ from setuptools import find_packages, setup
 
 readme = open('README.rst').read()
 
-invenio_version = '==3.2.1'
+invenio_version = '==3.4.0a1'
 invenio_search_version = '>=1.2.0,<1.3.0'
 invenio_db_version = '>=1.0.4,<1.1.0'
 
@@ -69,16 +69,16 @@ install_requires = [
     'invenio-records-permissions~=0.7.0',
     # Due to search-ui
     'invenio-indexer>=1.1.1,<1.2.0',
-    'invenio-jsonschemas>=1.0.1,<1.1.0',
-    'invenio-oaiserver>=1.1.1,<1.2.0',
-    'invenio-pidstore>=1.1.0,<1.2.0',
-    'invenio-records-rest>=1.6.4,<1.7.0',
-    'invenio-records-ui>=1.0.1,<1.1.0',
-    'invenio-records>=1.3.0,<1.4.0',
+    'invenio-jsonschemas>=1.1.0,<1.2.0',
+    'invenio-oaiserver>=1.2.0,<1.3.0',
+    'invenio-pidstore>=1.2.0,<1.3.0',
+    'invenio-records-rest>=1.7.1,<1.8.0',
+    'invenio-records-ui>=1.1.0,<1.2.0',
+    'invenio-records>=1.3.1,<1.4.0',
     # Due to files-rest
-    'invenio-files-rest>=1.1.0,<1.2.0',
-    'invenio-iiif>=1.0.0,<1.1.0',
-    'invenio-previewer>=1.1.0,<1.2.0',
+    'invenio-files-rest>=1.2.0,<1.3.0',
+    'invenio-iiif>=1.1.0,<1.2.0',
+    'invenio-previewer>=1.2.1,<1.3.0',
 ]
 
 packages = find_packages()
